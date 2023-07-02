@@ -1,0 +1,178 @@
+@keyframes hoverEnlargement {
+  from{}
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  text-transform: uppercase;
+  word-wrap: break-word;
+  padding: 10px;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.container {
+  margin-inline: auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#header {
+  height: auto;
+ 
+}
+#logo{
+  height:95%;
+  width:50%;
+  max-width: 200px;
+  min-height: 20px;
+}
+
+#nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background-color: #F1D4E5;
+  
+}
+
+div.footers{
+  display: inline-block;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 75px 5px gray;
+}
+#footer {
+  width: 100%;
+ background-color: #F1D4E5;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-evenly;
+ border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: #F1D4E5;
+  padding: 5px;
+  border-radius: 5%;
+}
+a:hover{
+  background-color: #FCE9F1;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+#main{
+  display: flex;
+  flex-flow: column wrap;
+}
+.promotion{
+  background-image: url(promotion.jpg);
+  background-size:cover;
+  border-radius: 45px;
+  width: 100%;
+  height: 100%;
+  min-height: 40vh;
+}
+
+.product-cards{
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.card{
+  width: 200px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.image{
+  border-radius: 15px 15px 0 0;
+  display: block;
+  height: 200px;
+
+}
+#jeans{
+  background-image: url(jeans.jpeg);
+  background-size: cover;
+}
+#tshirts{
+  background-image: url(tshirts.png);
+  background-size: cover;
+}
+#shirts{
+  background-image: url(shirts.jpg);
+  background-size: cover;
+}
+#shoes{
+  background-image: url(shoes.jpg);
+  background-size: cover;
+}
+#watches{
+  background-image: url(watches.jpg);
+  background-size: cover;
+}
+#accessories{
+  background-image: url(accessories.jpg);
+  background-size: cover;
+}
+#suits{
+  background-image: url(suits.jpg);
+  background-size: cover;
+}
+.offer{
+  text-align: right;
+}
+
+#offer-title{
+  font-size: 8vh;
+  background-color:rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin: 8px;
+  display: inline-block;
+  align-items: end;
+  text-shadow: 5px 5px 10px #F1D4E5;
+  color: white;
+  text-align: right;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#offer-content{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: none;
+  background-color:rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  display: inline-block;
+  align-items: end;
+  color: white;
+  text-align: right;
+  font-size: 30px;
+  padding: 10px;
+  width: 80%;
+
+}
+.title{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: larger;
+}
+.content{
+  text-transform: none;
+}
